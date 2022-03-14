@@ -86,3 +86,29 @@ h4 {
   max-width: 92%;
   margin: 0 auto;
 }
+
+@media (max-width: 600px) {
+  .projects img {
+    display: none;
+  }
+
+  .projects h2,
+  .projects p,
+  .projects a {
+    text-align: center;
+  }
+
+  .project-links {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .projects-images img {
+    margin-top: 20px;
+  }
+}
